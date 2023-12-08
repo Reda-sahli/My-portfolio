@@ -1,0 +1,49 @@
+.exempel-work{
+    margin: 15px 3%;
+}
+.skils{text-align: center;padding-top: 25px;}
+.skils h2{padding-bottom: 16px;letter-spacing: 1.5px;}
+.skils p{letter-spacing: 1.2px;color: var( --subtitel);;padding-bottom: 10px;}
+.skils a{color: var(--blue);}
+.skils a:hover{scale:(1.2);color: rgba(0, 0, 255, 0.657);}
+.myskils{display: flex;padding-top: 60px;}
+.care-1{width: 100%;background-color: var(--border);margin: 5px;border-radius: 8px;padding-bottom: 20px;}
+.care-1 span{margin: auto;}
+.care-1 h2{text-align: center;padding: 30px;}
+.care-1 p{margin-left: 3%;line-height: 30px;font-weight: 600;}
+.icon-database:before {content: "\e902";}
+.resume{width: 100%;margin: 20px auto;border-radius: 4px;background-color: var(--border);padding: 20px;}
+.resume h2{padding-bottom: 10px;}
+.resume p{margin-left: 10px;color:var( --subtitel);line-height: 22px;letter-spacing: 1px;}
+  
+  /* .photo{width: 50%;background-color: bisque;}
+  .ruse{width: 50%;background-color: rgb(57, 57, 57);} */
+
+.pose{
+    font-size: 60px; display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 20px;
+  }
+
+
+  @media (max-width: 500px) {
+
+
+
+
+    .myskils{display: block;padding-top: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

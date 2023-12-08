@@ -1,0 +1,151 @@
+.herocontainer {
+    display: flex;
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 20px;
+}
+.line-l {
+    width: 120px;
+    height: 5px;
+    background-color: var(--titel);
+    margin-left: 10%;
+}
+
+.hero-01 {
+    width: 50%;
+    padding-left: 10%;
+    margin-bottom: 20px;
+}
+
+.hero-01 h1 {
+    padding-top: 10%;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+
+.hero-01 p {
+    padding-top: 30px;
+    font-weight: 200;
+    color: var( --subtitel);
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+
+.hero-02 {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.car-about {
+    transition: .5s;
+    margin-right: 69px;
+    margin-top: 40px;
+    border: 2px solid var(--border);
+    padding: 10px;
+    border-radius: 4px;
+}
+.cv-download{width: 170px;background-color: white;border-radius: 5px;padding: 10px;cursor: pointer;}
+
+.My-cv-download {text-align: center;padding: 10px;color:var(--subtitel) ;margin: 4px;}
+
+
+.car-about h3 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: --bgheader;
+    padding-bottom: 10px;
+}
+
+.car-about p {
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgba(255, 255, 255, 0.519);
+    padding-bottom: 20px
+}
+
+.lernmor {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+}
+
+.lernmor a {
+    color: var( --subtitel);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 3px;
+}
+.lernmor a:hover{
+font-size: 22px;
+color: var( --subtitel);
+
+}
+.car-about:hover {
+    box-shadow: 2px 2px 3px;
+}
+
+.medaicontener {
+    margin: 5px;
+}
+.medaicontener ul li a {
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--titel);
+}
+.medaicontener ul  li a:hover {
+    font-size: 22px;
+    color: var(--subtitel);
+    margin-top: 15px;
+} 
+
+
+
+@media (max-width: 820px) {
+
+
+
+.herocontainer {
+    display: block;
+    
+}
+
+.car-about {
+   
+    margin: 20px;
+
+    padding: 10px;
+   
+}
+.hero-01 {
+    width: 100%;
+
+}
+
+
+.hero-02 {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+
+}
+}
+
+@media (max-width: 500px) {
+
+
+    .hero-02 {
+        display: block;
+     
+    
+    }
+
+
+
+
+}
+
+
+
+
+

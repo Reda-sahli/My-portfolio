@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Port-Full</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div id="root"></div>
+
+
+
+
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="java.js"></script>
+    <script src="javapage.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      /* paste this line in verbatim */
+      window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+      /* customize formbutton below*/     
+      formbutton("create", {
+        action: "https://formspree.io/f/xoqogqyn",
+        title: "How can we help?",
+        fields: [
+          { 
+            type: "email", 
+            label: "Email:", 
+            name: "email",
+            required: true,
+            placeholder: "send me your email "
+          },
+          {
+            type: "textarea",
+            label: "Message:",
+            name: "name",
+            placeholder: "What's on your mind?",
+          },
+          { type: "submit" }      
+        ],
+        styles: {
+          title: {
+            backgroundColor: "gray"
+          },
+          button: {
+            backgroundColor: "gray"
+          }
+        }
+      });
+    </script>
+ <!-- <script>
+
+  let Mood = document.getElementById('Mood');
+    onclick.Mood =function Mood(){
+    document.documentElement.style.setProperty('--titel', 'red');}
+
+    function scrollToAboutMe() {
+    const aboutParagraph = document.querySelector('.about-paragraph');
+    
+    window.scrollTo({
+      top: aboutParagraph.offsetTop,
+      behavior: 'smooth'
+    });
+  }
+
+  document.querySelector('.about-link').addEventListener('click', scrollToAboutMe);
+    </script>
+ -->
+
+   
+  </body>
+</html>

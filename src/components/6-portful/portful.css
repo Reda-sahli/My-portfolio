@@ -1,0 +1,98 @@
+.port--folio {
+    display: block;
+}
+
+.port-text h1 {
+    text-align: center;
+    margin-top: 30px;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 4px var(--border) solid;
+    padding-top: 20px;
+}
+
+.port-container {
+    display: flex;
+}
+
+.port-container-text {
+    width: 60%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.port-container-divs {
+    margin: 20px auto;
+}
+
+.port-div {
+    width: 300px;
+    height: 200px;
+    background-color: var(--border);
+    margin: 30px 10px;
+    border-radius: 9px;
+
+}
+
+.port-div:hover {
+    scale: 1.1;
+}
+
+.port-container-text p {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.port-divseemore {
+    width: 550px;
+    height: 250px;
+    background-color: var(--border);
+    margin: 100px 10px;
+    border-radius: 9px;
+
+}
+
+@media (max-width: 500px) {
+
+
+    
+    .port-container {
+        display: block;
+    }
+    
+    .port-container-text {
+        width: 100%;
+    }
+    
+    .port-container-divs {
+        margin: 30px;
+    }
+    
+    .port-div {
+        width: 260px;
+        height: 200px;
+        margin: 20px 0px;
+       
+    
+    }
+    
+    .port-div:hover {
+        scale: 1.1;
+    }
+    
+    .port-container-text p {
+        padding-left: 0px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    
+    .port-divseemore {
+        width: 100%;
+        height: 250px;
+        
+
+}
+}

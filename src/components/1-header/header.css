@@ -1,0 +1,180 @@
+.hedbar {
+    display: flex;
+    margin: auto;
+    padding: 10px 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    background-color: var(--bgheader);
+    border-radius: 20px;
+    padding: 0.50rem 1.3rem;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    color: var(--titel);
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+.menubar{color:var(--titel);background-color: transparent;border: none;font-size:25px;display: none;}
+
+/* #Mood {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px rgba(255, 187, 0, 0.459) solid;
+    background-color: rgba(255, 255, 255, 0.255);
+    position: absolute;
+    right: 30%;
+    cursor: pointer;
+} */
+
+.fa-solid fa-bars{color: red;}
+@keyframes mymove {
+    0% {
+        scale: 0;
+    }
+
+    60% {
+        scale: 1.2
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.popup {
+    position: fixed;
+    background-color: rgba(40, 40, 48, 0.91);
+    inset: 0;
+    z-index: 11;
+}
+
+.model {
+    width: 80%;
+    background-color: var(--bgheader);
+    margin: 50px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    animation: mymove 0.7s 1;
+
+}
+
+.model ul {
+    display: block;
+
+}
+
+.model ul li:first-child {
+    text-align: right;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.model ul li {
+    text-align: center;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 5px;
+}
+
+.model ul li a {
+    color:var(--titel);
+}
+
+.model ul li a:hover {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.model ul li button {
+    width: 25px;
+    height: 25px;
+}
+
+.moon {
+    background-color: transparent;
+    border: 1px solid var(--titel);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: var(--titel);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:810px) {
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: var(--titel);
+        font-size: 25px;
+    }
+
+    .model {
+        width: 80%;
+        background-color: var(--bgheader);
+        margin: 50px auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 30px;
+        display: block;
+
+    }
+
+
+    .model ul li {
+        text-align: center;
+        margin: 30px;
+    }
+
+    .model ul li a {
+        color: var(--titel);
+    }
+
+    .model ul li a:hover {
+        color: var(--blue);
+        font-weight: 600;
+    }
+    .menubar{display: flex;}
+
+}
+
+
+
+
+
+
+
+
