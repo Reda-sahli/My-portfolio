@@ -12,7 +12,7 @@ function Hero() {
         <p>Lorem ipsum dolor sit amet eveniet Commodi provident quisquam veritatis!</p>
       
 <div className="cv-download">
-      <a href="" download="computer" className='My-cv-download'><i class="fa-solid fa-download">Download</i></a>
+      <a href="img/Reda-sahli-cv.pdf" download="computer" className='My-cv-download'><i class="fa-solid fa-download">Download</i></a>
 </div>
         </div> 
                       {/* Container num 2  */}
