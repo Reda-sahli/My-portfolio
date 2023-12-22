@@ -25,8 +25,23 @@
     margin: 20px auto;
 }
 
-.port-div {
-    width: 300px;
+.port-div-1 {
+    width: 280px;
+    height: 200px;
+    background-image: url(img/Est-proge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.port-div-1:hover {
+    scale: 1.1;
+}
+.port-div-2 {
+    width: 280px;
     height: 200px;
     background-color: var(--border);
     margin: 30px 10px;
@@ -34,7 +49,18 @@
 
 }
 
-.port-div:hover {
+.port-div-2:hover {
+    scale: 1.1;
+}.port-div-3 {
+    width: 280px;
+    height: 200px;
+    background-color: var(--border);
+    margin: 30px 10px;
+    border-radius: 9px;
+
+}
+
+.port-div-3:hover {
     scale: 1.1;
 }
 
@@ -46,7 +72,7 @@
 }
 
 .port-divseemore {
-    width: 550px;
+    width: 500px;
     height: 250px;
     background-color: var(--border);
     margin: 100px 10px;
