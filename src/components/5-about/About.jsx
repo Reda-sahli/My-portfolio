@@ -10,7 +10,10 @@ function About() {
 
     <div className="pag-about" >
     <div className="profil">
-      <div className="profilred"></div>
+      <div className="profilred">
+
+        
+      </div>
       </div>
     <div className="contenair">
         <div className="text-01"> 

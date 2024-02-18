@@ -45,7 +45,9 @@
     padding: 10px;
     border-radius: 4px;
 }
-.cv-download{width: 170px;background-color: white;border-radius: 5px;padding: 10px;cursor: pointer;}
+.cv-download{width: 170px;background-color: rgb(255, 255, 255);border-radius: 5px;padding: 10px 10px;cursor: pointer;}
+.cv-download a{   color: rgba(66, 65, 65, 0.519);margin-left: 3px;}
+
 
 .My-cv-download {text-align: center;padding: 10px;color:var(--subtitel) ;margin: 4px;}
 

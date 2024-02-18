@@ -30,7 +30,7 @@ function Coperight() {
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div>
-          <div class="text-one">+212631368295</div>
+          <div class="text-one">+212 631368295</div>
           <div class="text-two"></div>
         </div>
         <div class="email details">
@@ -60,7 +60,7 @@ function Coperight() {
           <input type="text"name="email" placeholder='Entre your email' />
         </div>
         <div class="input-box message-box">
-        <input type="textarea"name="textarea" placeholder='Can i help!' />
+        <input type="textarea"name="textarea" placeholder='How Can i help !' />
         </div>
         <div class="button">
           <input type="submit" value="Send Now"  />
